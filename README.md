@@ -123,13 +123,13 @@ contract TestAdoption {
 }
 ```
 
-## การรันการทดสอบที่เขียนไว้ในไดเร็กทอรี test โดยใช้คำสั่งต่อไปนี้
+#### การรันการทดสอบที่เขียนไว้ในไดเร็กทอรี test โดยใช้คำสั่งต่อไปนี้
 
 ```
 truffle test
 ```
 
-## ผลการทดสอบผ่านทั้ง 3 กรณีจะได้ผลลัพธ์ดังรูปต่อไปนี้
+#### ผลการทดสอบผ่านทั้ง 3 กรณีจะได้ผลลัพธ์ดังรูปต่อไปนี้
 
 [![runtest.jpg](https://i.postimg.cc/GpT6Y8Sw/runtest.jpg)](https://postimg.cc/WDj9c3vX)
 
@@ -223,7 +223,7 @@ truffle test
 
 
 ## 4. สร้าง Backend ที่สามารถเชื่อมต่อกับ Smart Contract
-####4.1 แก้ไขไฟล์ ```src/js/app.js``` ให้มีโค้ดดังนี้
+#### 4.1 แก้ไขไฟล์ ```src/js/app.js``` ให้มีโค้ดดังนี้
 
 ```
 App = {
@@ -527,3 +527,8 @@ npm run dev
 [![Final2.jpg](https://i.postimg.cc/7hf92PzR/Final2.jpg)](https://postimg.cc/p5MKNHqQ)
 [![Final3.jpg](https://i.postimg.cc/QNy0r5GZ/Final3.jpg)](https://postimg.cc/t7Fh3s4B)
 
+
+
+
+
+#### สังเกตกรณีบ้านที่มีการซื้อไปแล้ว สถานะจะเปลี่ยนจาก Buy เป็น Sold Out
